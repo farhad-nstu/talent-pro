@@ -81,4 +81,4 @@
 </body>
 
 </html>
-<?php /**PATH C:\xampp\htdocs\talent-pro-lab\resources\views/auth/app.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp\htdocs\talent-pro\resources\views/auth/app.blade.php ENDPATH**/ ?>

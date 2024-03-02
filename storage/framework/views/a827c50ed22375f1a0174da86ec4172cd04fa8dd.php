@@ -14,4 +14,4 @@
         </div>
     </div>
 </footer>
-<?php /**PATH C:\xampp\htdocs\talent-pro-lab\resources\views/layouts/inc/footer.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp\htdocs\talent-pro\resources\views/layouts/inc/footer.blade.php ENDPATH**/ ?>

@@ -16,4 +16,4 @@
 </div>
 
 
-<?php /**PATH C:\xampp\htdocs\talent-pro-lab\resources\views/layouts/inc/start_page_title.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp\htdocs\talent-pro\resources\views/layouts/inc/start_page_title.blade.php ENDPATH**/ ?>

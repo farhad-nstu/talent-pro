@@ -36,4 +36,4 @@
         </div>
     </body>
 </html>
-<?php /**PATH C:\xampp\htdocs\talent-pro-lab\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions/views/minimal.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp\htdocs\talent-pro\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions/views/minimal.blade.php ENDPATH**/ ?>

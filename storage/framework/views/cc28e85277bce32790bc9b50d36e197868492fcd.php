@@ -89,4 +89,4 @@ unset($__errorArgs, $__bag); ?>
     </form>
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('auth.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\talent-pro-lab\resources\views/auth/pages/login.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('auth.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\talent-pro\resources\views/auth/pages/login.blade.php ENDPATH**/ ?>

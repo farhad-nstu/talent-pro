@@ -16,4 +16,4 @@
         </div>
     </div>
 </div>
-<?php /**PATH C:\xampp\htdocs\talent-pro-lab\resources\views/layouts/inc/navbar.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp\htdocs\talent-pro\resources\views/layouts/inc/navbar.blade.php ENDPATH**/ ?>

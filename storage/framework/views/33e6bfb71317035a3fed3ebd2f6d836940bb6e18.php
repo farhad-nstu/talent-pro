@@ -44,4 +44,4 @@
         </ul>
     </nav>
 <?php endif; ?>
-<?php /**PATH C:\xampp\htdocs\talent-pro-lab\vendor\laravel\framework\src\Illuminate\Pagination/resources/views/bootstrap-4.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp\htdocs\talent-pro\vendor\laravel\framework\src\Illuminate\Pagination/resources/views/bootstrap-4.blade.php ENDPATH**/ ?>

@@ -12,4 +12,4 @@
         Swal.fire(<?php echo Session::pull('alert.config'); ?>);
     </script>
 <?php endif; ?>
-<?php /**PATH C:\xampp\htdocs\talent-pro-lab\resources\views/vendor/sweetalert/alert.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp\htdocs\talent-pro\resources\views/vendor/sweetalert/alert.blade.php ENDPATH**/ ?>

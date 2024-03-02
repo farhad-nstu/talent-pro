@@ -214,4 +214,4 @@
 </body>
 
 </html>
-<?php /**PATH C:\xampp\htdocs\talent-pro-lab\resources\views/layouts/app.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp\htdocs\talent-pro\resources\views/layouts/app.blade.php ENDPATH**/ ?>

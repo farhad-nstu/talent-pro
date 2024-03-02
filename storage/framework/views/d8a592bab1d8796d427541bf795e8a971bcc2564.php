@@ -165,4 +165,4 @@
 </body>
 
 </html>
-<?php /**PATH C:\xampp\htdocs\talent-pro-lab\resources\views/layouts/admin/app.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp\htdocs\talent-pro\resources\views/layouts/admin/app.blade.php ENDPATH**/ ?>

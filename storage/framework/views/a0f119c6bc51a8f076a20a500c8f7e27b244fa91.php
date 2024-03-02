@@ -110,4 +110,4 @@ unset($__errorArgs, $__bag); ?>"
     <?php endif; ?>
 <?php $__env->stopPush(); ?>
 
-<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\talent-pro-lab\resources\views/layouts/pages/users/change_password.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\talent-pro\resources\views/layouts/pages/users/change_password.blade.php ENDPATH**/ ?>
