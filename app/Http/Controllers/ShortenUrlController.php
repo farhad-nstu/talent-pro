@@ -63,4 +63,10 @@ class ShortenUrlController extends Controller
             return $this->error("Something went wrong with error ".$e, null, $e->getCode());
         }
     }
+
+    public function getShortenLink($shorten_url){
+        $data['title'] = 'GET SHORTEN URL';
+        $shorten_url = $this->shortenUrlRepositoryInterface->getShortenLink($shorten_url);
+        return redirect($shorten_url);
+    }
 }

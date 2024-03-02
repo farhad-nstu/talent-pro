@@ -70,4 +70,13 @@ class ShortenUrlService implements ShortenUrlRepositoryInterface {
             return ["error", "Something Went Wrong. Error: ".$e->getMessage()];
         }
     }
+
+    public function getShortenLink($shorten_url)
+    {
+        $obj = $this->url::getSingleUrlByParam('shortener_url', $shorten_url);
+        if($obj){
+            return $obj->original_url;
+        }
+        return false;
+    }
 }

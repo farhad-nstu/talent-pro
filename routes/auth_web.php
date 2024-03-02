@@ -35,5 +35,8 @@ Route::group(['prefix' => 'shortenUrls', 'as' => 'shortenUrls.'], function () {
     Route::patch('update/url/{id}', [ShortenUrlController::class, 'updateUrl'])->name('updateUrl');
     Route::post('/delete/url', [ShortenUrlController::class, 'deleteUrl'])->name('deleteUrl');
 });
+
+Route::get('/shorten-link/{shorten_url}', [ShortenUrlController::class, 'getShortenLink'])->name('getShortenLink');
+
 Route::post('/logout', [AuthSessionController::class, 'destroy'])
     ->name('logout');
