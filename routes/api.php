@@ -27,7 +27,7 @@ Route::group(['middleware' => ['throttle:api','cors','json.response']],function 
     Route::post('/register',[AuthController::class, 'register'])->name('register.api');
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout.api');
 
-    // Route::middleware('auth:api')->group(function () {
+    Route::middleware('auth:api')->group(function () {
         // our routes to be protected will go in here
         // Route::post('/logout', 'Api\AuthController@logout')->name('logout.api');
         Route::get('users', [UserController::class, 'getUsers']);
@@ -36,6 +36,6 @@ Route::group(['middleware' => ['throttle:api','cors','json.response']],function 
         Route::put('user/edit/{id}', [UserController::class, 'editUser']);
         Route::delete('user/delete/{id}', [UserController::class, 'deleteUser']);
 
+        });
         Route::post('/create/shorten-url', [ShortenUrlController::class, 'createShortenUrl']);
-    // });
 });
