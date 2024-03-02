@@ -27,5 +27,13 @@ Route::group(['prefix' => 'user', 'as' => 'user.'], function () {
     Route::patch('user/{id}/change-password', [UserController::class, 'password_update'])->name('update.password');
     Route::get('/{id}/screen_lock', [UserController::class, 'screen_lock'])->name('screen.lock');
 });
+Route::group(['prefix' => 'shortenUrls', 'as' => 'shortenUrls.'], function () {
+    Route::get('/get/urls', [UserController::class, 'getUrls'])->name('getUrls');
+    Route::get('/create/url', [UserController::class, 'createUrl'])->name('createUrl');
+    Route::post('/store/url', [UserController::class, 'storeUrl'])->name('storeUrl');
+    Route::get('/edit/url', [UserController::class, 'change_password'])->name('change.password');
+    Route::patch('user/{id}/change-password', [UserController::class, 'password_update'])->name('update.password');
+    Route::get('/{id}/screen_lock', [UserController::class, 'screen_lock'])->name('screen.lock');
+});
 Route::post('/logout', [AuthSessionController::class, 'destroy'])
     ->name('logout');
