@@ -4,13 +4,13 @@
             <ul class="metismenu list-unstyled" id="side-menu">
                 <li class="menu-title" key="t-menu">Menu</li>
                 <li>
-                    <a href="{{ url('home') }}" class="waves-effect">
+                    <a href="<?php echo e(url('home')); ?>" class="waves-effect">
                         <i class='bx bxs-dashboard'></i>
                         <span key="t-dashboard">Dashboard</span>
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('shortenUrls.getUrls') }}" class="waves-effect">
+                    <a href="<?php echo e(route('shortenUrls.getUrls')); ?>" class="waves-effect">
                         <i class='bx bxs-dashboard'></i>
                         <span key="t-dashboard">Shorten URL</span>
                     </a>
@@ -19,3 +19,4 @@
         </div>
     </div>
 </div>
+<?php /**PATH C:\xampp\htdocs\talent-pro-lab\resources\views/layouts/inc/navbar.blade.php ENDPATH**/ ?>

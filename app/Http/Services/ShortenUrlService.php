@@ -71,6 +71,15 @@ class ShortenUrlService implements ShortenUrlRepositoryInterface {
         }
     }
 
+    public function getShortenLinkByOriginalUrl($original_url)
+    {
+        $obj = $this->url::getSingleUrlByParam('original_url', $original_url);
+        if($obj){
+            return $obj->shortener_url;
+        }
+        return false;
+    }
+
     public function getShortenLink($shorten_url)
     {
         $obj = $this->url::getSingleUrlByParam('shortener_url', $shorten_url);
